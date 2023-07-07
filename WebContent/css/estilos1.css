@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+	list-style:none;
+	font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+	max-width: 100%;
+}
+
+header {
+	font-size: 24px;	
+}
+
+.nav-item a {
+	font-size: 24px;
+}
+
+.contenedor{
+   font-size: 16px;
+}
+
+.carrusel-marcas {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#imgcar-img {
+    width: 100%;
+    height: 700px;
+}
+
+a.navbar-brand, a.navbar-brand:hover, a.nav-link, a.nav-link:hover, .navbar-toggler-icon {
+	color: white;
+}
+
+ul.dropdown-menu > li > a.dropdown-item:hover {
+	background-color: orange;
+	color: white;
+}
+
+nav h5, h3, p {
+	text-align: center;
+}
+
+contenedor > p {
+	text-align: center;
+}
+
+.nav-encabezado {
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+footer { /*estilos al footer mostrarlo flex*/
+    display: flex;  
+    background-color: #264566;
+    color: white;
+    width: 100%;
+    margin: 0px auto;
+    flex: 100%;
+}
+
+footer .derechos { /*60% del footer para derechos*/
+    width: 60%;
+    margin: 3rem;
+}
+
+footer .socialmedia { /*40% del footer para socialmedia*/
+    width: 40%;
+    margin: 2rem 20px 2rem 10px;
+    text-align: right;
+}
+
+.socialmedia img { /*estilos a imÃ¡genes de socialmedia*/
+    margin: 5px;
+    width: 60px;
+}
+
+.derechos p {
+	font-size: 24px;
+}
+
+@media screen and (max-width: 900px) {
+	button.navbar-toggler {
+		background: white;
+	}
+	
+	.socialmedia img { /*estilos a imÃ¡genes de socialmedia*/
+	    margin: 3px;
+	    width: 50px;
+	}
+	.derechos p {
+		font-size: 20px;
+	}
+	.nav-encabezado {
+		font-size: 18px;
+	}
+}
